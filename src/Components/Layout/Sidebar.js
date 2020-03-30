@@ -41,12 +41,13 @@ export const Sidebar = () => {
                 </p>
               </Link>
             </li>
-            <li class="nav-item">
-              <a href="pages/gallery.html" class="nav-link">
-                <i class="nav-icon far fa-image"></i>
+            <li className="nav-item">
+              <a href="pages/gallery.html" className="nav-link">
+                <i className="nav-icon far fa-image" />
                 <p>บันทึกการทำงาน</p>
               </a>
             </li>
+
             <li className="nav-item has-treeview">
               <Link to="/job" className="nav-link">
                 <i className="nav-icon fas fa-copy" />
